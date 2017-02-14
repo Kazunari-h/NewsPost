@@ -21,7 +21,7 @@ License:GPL2
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 //ここからプラグイン
-add_action('init', 'kasotsuka_news');
+add_action('init', 'kasotsuka_news_init');
 function kasotsuka_news_init(){
     $labels = array(
         'name' => _x('仮想通貨ニュース', 'post type general name'),
